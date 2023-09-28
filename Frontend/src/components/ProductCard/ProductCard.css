@@ -1,0 +1,150 @@
+.product-card-coloum-3 {
+  width: 24%;
+}
+.product-card-coloum-4 {
+  width: 32%;
+}
+.product-card-coloum-6 {
+  width: 49%;
+}
+.product-card-coloum-12 {
+  width: 100%;
+}
+
+.product-card-coloum-12 .product-card {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card-coloum-12 .product-card .product-image{
+  width:270px;
+}
+
+.product-card-coloum-12 .action-bar {
+  top: 19%;
+  right: -23px;
+  transition: 0.3s;
+}
+.product-card-coloum-6 .product-image{
+  width: 100%;
+}
+.product-card-coloum-6 .product-image img{
+  margin: auto;
+  display: block;
+}
+.product-card {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+.product-card .description{
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--color-777777);
+  margin-right: 20px;
+}
+.product-card-coloum-12 .product-card .product-image {
+  height: auto;
+} 
+ .product-card .product-image img {
+  object-fit: contain;
+}
+
+.product-card:hover .action-bar {
+  right: 15px;
+}
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+.product-card .product-details h5 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+.product-card .product-details .price {
+  margin-top: 16px;
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+
+.product-card p.description {
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-right: 20px;
+}
+.action-bar {
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+.wishlist-icon {
+  position: absolute;
+  top: 2%;
+  right: 15px;
+}
+
+.product-card-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.img-01 {
+ width: 250px;
+}
+.img-02 {
+  width: 250px;
+ }
+
+.show-description{
+  display: block;
+}
+.dontshow-description{
+  display: none;
+}
+.wishlist-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .product-card-coloum-3 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .product-card{
+    width: 160%;
+    background-color: white;
+    overflow: hidden;
+  }
+  .product-card-coloum-4{
+    width: 100%;
+  }
+  .product-image{
+    width: 100%;
+  }
+  .product-details {
+    text-align: center;
+  }
+
+  div[class^="react-stars-wrapper-"], div[class*=" react-stars-wrapper-"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .action-bar {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-card-div {
+    display: flex;
+    justify-content: center;
+  }
+}

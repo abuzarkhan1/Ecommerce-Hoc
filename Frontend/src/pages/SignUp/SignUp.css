@@ -1,0 +1,72 @@
+.signup-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.signup-container-01 {
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.signup-row-01 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.signup-h3-01 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.signup-coloum-01 {
+  width: 100%;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f7f7f7;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  border-color: transparent;
+}
+/* signup card */
+.auth-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.signup-div-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin: 10px;
+  margin-top: 1.5rem;
+}
+.signup-div-02 {
+  margin-top: 1rem;
+}
+.auth-card .signup {
+  background-color: #febd69;
+}
+.auth-card .signup:hover {
+  background-color: var(--color-232f3e);
+  color: white;
+}
+.auth-card a {
+  color: var(--color-1c1c1b);
+  font-size: 14px;
+  font-weight: 400;
+}

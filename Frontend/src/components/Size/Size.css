@@ -1,0 +1,41 @@
+.sizes {
+  margin-bottom: 1rem;
+}
+
+.sizes h3.product-heading {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.sizes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sizes li {
+  display: inline-block;
+  margin-right: 0.5rem;
+  list-style: none;
+}
+
+.sizes li:last-child {
+  margin-right: 0;
+}
+
+.sizes .main-product-badge {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+}
+
+.sizes .main-product-badge:hover {
+  background-color: #ddd;
+}
+
+.sizes .main-product-badge.selected {
+  background-color: #333;
+  color: #fff;
+}

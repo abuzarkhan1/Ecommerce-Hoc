@@ -1,0 +1,103 @@
+.trigger{
+    padding: 0 24px;
+    font-size: 18px;
+    list-style: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover{
+    color: #1890ff;
+}
+
+.logo{
+    height: 64px;
+    margin: 0;
+    background:#ffd333;
+}
+.logo-heading{
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+.ant-layout{
+    min-height:100vh;
+}
+.ant-layout-sider{
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+}
+.ant-layout-sider-collapsed{
+    flex: 0 0 80px !important;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+}
+.ant-menu-title-content{
+    font-size: 16px;
+}
+.layout-header-1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-right: 1.25rem;
+}
+.header-lay-h1{
+    margin-right: 50px;
+}
+main{
+    overflow-y: scroll;
+    height: 85vh;
+    background-color: transparent !important;
+}
+.layout-div-1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.layout-div-2{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.lay-img-1{
+    margin-top: 17px;
+    margin-right: -14px;
+}
+.layout-div-3{
+    margin-right: 40px;
+}
+.ant-layout-header h5{
+    max-width: 0;
+    font-size: 14px;
+    line-height: 30px;
+}
+.ant-layout-header p{
+    line-height: 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.layout-div-4{
+    position: relative;
+}
+.layout-badge{
+    top:9px;
+    right: -4px;
+    background-color: #ffc107;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 50%;
+}

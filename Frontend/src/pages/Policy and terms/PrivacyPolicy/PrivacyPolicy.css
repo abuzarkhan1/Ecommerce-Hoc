@@ -1,0 +1,26 @@
+.privacy-policy-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.privacy-policy-container-01 {
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.privacy-policy-row-01 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.privacy-policy-h3-01 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.privacy-policy-coloum-01 {
+  width: 100%;
+}
+.policy{
+    background-color: white;
+    padding: 30px;
+}

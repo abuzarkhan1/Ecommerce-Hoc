@@ -1,0 +1,129 @@
+.cart-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.cart-container-01 {
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cart-row-01 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.cart-coloum-1 {
+  width: 100%;
+}
+.cart-div-01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.cart-div-01 h4 {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+.cart-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 8px;
+}
+.cart-coloum-01 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cart-coloum-02 {
+  width: 10%;
+}
+.cart-coloum-03 {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cart-coloum-04 {
+  width: 15%;
+}
+.cart-coloum-01 p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.cart-div-02 {
+  width: 25%;
+}
+.cart-img-01 {
+  max-width: 100%;
+  height: auto;
+}
+.cart-div-03 {
+  width: 75%;
+}
+
+.form-control-cart {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 90%;
+  height: 43px;
+  padding: 0.475rem 0.75rem;
+  font-size: 1rem;
+  color: #495057;
+  border-radius: 0.25rem;
+}
+.cart-ai-button {
+  color: #dc3545;
+  font-size: 22px;
+  cursor: pointer;
+}
+.cart-data h5.price {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.cart-2-coloum-1 {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 24px;
+}
+.cart-div-04 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-div-05 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#cart-link-no-1{
+  margin-bottom: 120px;
+}
+#cart-link-no-2{
+  margin-top: 10px;
+}
+.cart-p-h{
+  margin-top: 10px;
+} 
+@media screen and (max-width: 768px) {
+  .cart-row-01 {
+    width: 100%;
+    margin-right: -20px;
+    margin-left: 8px;
+  }
+  #cart-link-no-1{
+    display: none;
+  }
+  .cart-p-h{
+    display: none;
+  }
+}

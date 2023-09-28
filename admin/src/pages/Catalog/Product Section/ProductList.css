@@ -1,0 +1,14 @@
+.Productlist-list-h3{
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+    font-family: Roboto !important;
+}
+.pl-icon-1{
+    font-size: 1.75rem;
+    /* color: red; */
+}
+.pl-icon-2{
+    font-size: 1.75rem;
+    color: red;
+    margin-left: 1rem;
+}
