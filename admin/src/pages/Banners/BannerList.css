@@ -1,0 +1,49 @@
+.list-banners-container {
+  padding: 20px;
+}
+
+.list-banners-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.banners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  gap: 20px;
+}
+
+.banner-item {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.banner-item img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-actions {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  font-size: 20px;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.delete-icon:hover {
+  color: red;
+}

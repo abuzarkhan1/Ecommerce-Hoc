@@ -1,0 +1,88 @@
+.profile-page {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.profile-page-container-1 {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1320px;
+}
+.profile-page-row-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-page-coloum-1 {
+  width: 100%;
+}
+.my-form-group {
+  margin-bottom: 2rem;
+}
+.my-form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.my-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.my-form-text {
+  margin-top: 0.25rem;
+  color: #6c757d;
+}
+
+.my-form-check {
+  padding-left: 1.25rem;
+}
+
+.my-form-check-input {
+  position: relative;
+  margin-top: 0.3rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.3rem;
+}
+
+.my-form-check-label {
+  margin-bottom: 0;
+}
+
+.my-btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+.my-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.profile-coloum-2{
+    width: 100%;
+}
+.profile-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.edit-b{
+    font-size: 1.50rem;
+    cursor: pointer;
+}

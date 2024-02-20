@@ -1,0 +1,48 @@
+.view-enq-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view-enq-button-1{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: transparent;
+    border: none;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.icon-viewEnq{
+    font-size: 1.25rem;
+}
+.view-enq-div-2{
+    margin-top: 3rem;
+    background-color: white;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: 0.375rem;
+}
+.view-enq-div-3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.form-control-viewEnq {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f7f7f7;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.h6andp-viewenq{
+    font-size: 15px;
+}

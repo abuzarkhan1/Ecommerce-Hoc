@@ -1,0 +1,97 @@
+/* Map start here */
+.contact-wrapper{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.contact-container-01{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.contact-row-01{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.contact-coloum-01{
+    width: 100%;
+}
+
+.contact-inner-wrapper address, .contact-inner-wrapper a, .contact-inner-wrapper p{
+    color: var(--color-777777);
+}
+
+/* Form start here */
+
+.contact-coloum-02{
+    width: 100%;
+    margin-top: 3rem;
+}
+.contact-inner-wrapper{
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: white;
+    gap: 15px;
+}
+.contact-inner-wrapper>div{
+    width: 48%;
+}
+.contact-title{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 1.4rem;
+}
+/* form */
+.contact-form-001{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-control-contact{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f7f7f7;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+   border-color: transparent;
+}
+
+/* get in touch part */
+.contact-inner-wrapper ul{
+    list-style: none;
+}
+@media (max-width: 768px) {
+    .contact-inner-wrapper {
+      flex-direction: column;
+    }
+    .contact-title{
+        margin-top: 20px;
+    }
+  
+    .contact-inner-wrapper > div {
+      width: 100%;
+    }
+    iframe{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-inner-wrapper {
+      padding: 20px;
+    }
+  
+    .contact-inner-wrapper > div {
+      width: 100%;
+    }
+  }

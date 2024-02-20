@@ -1,0 +1,28 @@
+.blog-wrapper{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.blog-container-01{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.blog-row-01{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.blog-coloum-01{
+    width: 25%;
+}
+.blog-coloum-02{
+    width: 75%;
+}
+
+.blog-coloum-03{
+    width: 49%;
+    margin-bottom: 1rem;
+}

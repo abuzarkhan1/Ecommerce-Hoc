@@ -1,0 +1,46 @@
+.adminlogin-div-1 {
+  background: #232f3e;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  min-height: 100vh;
+}
+.adminlogin-div-2 {
+  margin-bottom: 5rem;
+  width: 25%;
+  background-color: white;
+  border-radius: 0.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3.5rem;
+}
+.adminlogin-div-3{
+  margin-bottom: 2rem;
+  margin-right: -26px;
+  text-align: right;
+}
+.adminlogin-button-1{
+  background: #febd69;
+  width: 107%;
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.adminlogin-h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: Roboto !important;
+}
+.adminlogin-p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
